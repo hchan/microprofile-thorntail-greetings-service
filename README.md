@@ -1,4 +1,6 @@
 # SpringBoot vs MicroProfile-Thorntail
+See also 
+[spring-boot-greetings-service](https://github.com/hchan/spring-boot-greetings-service)
 
 ## Spring projects are more extensive
 - Spring Data JPA rocks
