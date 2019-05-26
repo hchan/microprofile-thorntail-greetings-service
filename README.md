@@ -21,8 +21,9 @@ See also
 - `java -jar target\*.jar` ... not great for debugging
 - added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode
  
-## Atlernative to Arquillian
- Alternatively without using @RunWith(Arquillian.class) to test Microservices,
+## Atlernative to Arquillian / SpringRunner
+- I believe testing Microservices is part of Integration testing wrt [Martin Fowler's test Pyramid}(https://martinfowler.com/articles/practical-test-pyramid.html)
+- Java may not be the answer
  I STRONGLY recommend Postman (black box testing).  Black box is good ... you also offset this work to other developers (i.e. a more junior developer with NodeJS skills)
  Postman / Newman rocks! ... if you wish to migrate to Postman, there is a http://arquillian.org/guides/generator/  Arquillian APE REST Postman
  
