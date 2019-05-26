@@ -14,13 +14,12 @@ See also
 - Does Arquillian support random ports?
 - Had to add:
 - `-Dthorntail.arquillian.daemon.port=19999 -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xbootclasspath/p:C:/Users/Henry/.m2/repository/org/jboss/logmanager/jboss-logmanager/2.1.11.Final/jboss-logmanager-2.1.11.Final.jar`
-Also had to run Project ... Clean often in Eclipse
-Alternatively, I could use Open Liberty
-which also brings up the next issue ... which vendor for Microprofile?
-Without running tests, the only other way to start microprofile-thorntail 
-is java -jar target\*.jar ... not great for debugging
-hack:
-add a runDummyServer in GreetingServiceTest
+- Also had to run Project ... Clean often in Eclipse
+- Alternatively, I could use Open Liberty
+- which also brings up the next issue ... which vendor for Microprofile ... will I get into a vendor-lock problem?
+- Without running tests, the only other way to start microprofile-thorntail 
+- `java -jar target\*.jar` ... not great for debugging
+- added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode
  
 ## Atlernative to Arquillian
  Alternatively without using @RunWith(Arquillian.class) to test Microservices,
