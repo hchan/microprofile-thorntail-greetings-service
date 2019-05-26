@@ -22,16 +22,14 @@ See also
 - added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode
  
 ## Atlernative to Arquillian / SpringRunner
-- I believe testing Microservices is part of Integration testing wrt [Martin Fowler's test Pyramid}(https://martinfowler.com/articles/practical-test-pyramid.html)
+- I believe testing Microservices is part of Integration testing wrt [Martin Fowler's test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - Java may not be the answer
- I STRONGLY recommend Postman (black box testing).  Black box is good ... you also offset this work to other developers (i.e. a more junior developer with NodeJS skills)
- Postman / Newman rocks! ... if you wish to migrate to Postman, there is a http://arquillian.org/guides/generator/  Arquillian APE REST Postman
+- I STRONGLY recommend `Postman` (black box testing).  `Newman` can be used in CI
+- Black box is good ... you also offset this work to other developers (i.e. a more junior developer with NodeJS skills)
+- if you wish to migrate to `Postman` from `Arquillian`, there is a http://arquillian.org/guides/generator/  Arquillian APE REST Postman
+
  
- Putting testing aside, there was no "main" method in microprofile for me to put start my debugger in?
- The only way I could run microprofile was by something like:
- 
- 
-Conclusion
+# Conclusion
 I still like Spring Boot more,
 Then again, I'm open to giving Microprofile a shot
 
