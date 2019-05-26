@@ -5,13 +5,12 @@ See also
 ## Spring projects are more extensive
 - Spring Data JPA 
 - Spring CDC 
-## Spring community is huge
+- Spring community is huge
 
 ## Personal feelings ( open to change ;))
-I just think the Spring Boot is shorter and easier to read ... 
-
-Testing with Arquillan was flaky
-@RunWith(Arquillian.class) is as mature as SpringRunner ... Random ports?
+- I just think the Spring Boot is shorter and easier to read ... 
+- Testing with Arquillan was flaky ... `SpringRunner` I think is better (opininated)
+-- Random ports in Arquillan
 Had to add
 -Dthorntail.arquillian.daemon.port=19999 -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xbootclasspath/p:C:/Users/Henry/.m2/repository/org/jboss/logmanager/jboss-logmanager/2.1.11.Final/jboss-logmanager-2.1.11.Final.jar
 Also had to run Project ... Clean often in Eclipse
