@@ -3,12 +3,13 @@ See also
 [spring-boot-greetings-service](https://github.com/hchan/spring-boot-greetings-service)
 
 ## Spring projects are more extensive
-- Spring Data JPA rocks
-- Spring CDC is cool
-Spring community is huge
+- Spring Data JPA 
+- Spring CDC 
+## Spring community is huge
+
+## Personal feelings ( open to change ;))
 I just think the Spring Boot is shorter and easier to read ... 
 
-## Personal humps
 Testing with Arquillan was flaky
 @RunWith(Arquillian.class) is as mature as SpringRunner ... Random ports?
 Had to add
