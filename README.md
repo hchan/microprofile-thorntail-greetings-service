@@ -10,10 +10,10 @@ See also
 
 ## Personal feelings ( open to change ;))
 - I just think the Spring Boot is shorter and easier to read ... 
-- Testing with Arquillan was flaky ... `SpringRunner` I think is better (opininated)
-- Random ports in Arquillan
-Had to add
--Dthorntail.arquillian.daemon.port=19999 -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xbootclasspath/p:C:/Users/Henry/.m2/repository/org/jboss/logmanager/jboss-logmanager/2.1.11.Final/jboss-logmanager-2.1.11.Final.jar
+- Testing with `SpringRunner` was easier than `Arquillian`
+- Does Arquillian support random ports?
+- Had to add:
+- `-Dthorntail.arquillian.daemon.port=19999 -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xbootclasspath/p:C:/Users/Henry/.m2/repository/org/jboss/logmanager/jboss-logmanager/2.1.11.Final/jboss-logmanager-2.1.11.Final.jar`
 Also had to run Project ... Clean often in Eclipse
 Alternatively, I could use Open Liberty
 which also brings up the next issue ... which vendor for Microprofile?
