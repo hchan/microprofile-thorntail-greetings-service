@@ -17,10 +17,10 @@ See also
 - Also had to run Project ... Clean often in Eclipse in `Thorntail`
 - Alternatively, I could use Open Liberty (maybe the cleanup problem will go away)?
 - which also brings up the next issue ... which vendor for Microprofile ... will I get into a vendor-lock problem?
-- IDE support was nonexistent in Eclipse with (Eclipse Mircroprofile) - ironic?
+- IDE support was nonexistent in Eclipse with (Eclipse Mircroprofile) - ironic?  I'm more than happy to be corrected
 - Without running tests, the only other way to start microprofile-thorntail 
 - `java -jar target\*.jar` ... not great for debugging
-- added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode
+- added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode in `Thorntail` ... a hack
 - SpringBoot has a `SpringBootApplication` ... vanilla `main` method
  
 ## Atlernative to Arquillian / SpringRunner
