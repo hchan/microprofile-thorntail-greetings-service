@@ -20,6 +20,7 @@ See also
 - IDE support was nonexistent in Eclipse with (Eclipse Mircroprofile) - ironic?  I'm more than happy to be corrected
 - Without running tests, the only other way to start microprofile-thorntail 
 - `java -jar target\*.jar` ... not great for debugging
+- takes a LONG time to run `java -jar target\*.jar`
 - added a `GreetingServiceTest.runDummyServer` for debugging in interactive mode in `Thorntail` ... a hack
 - SpringBoot has a `SpringBootApplication` ... vanilla `main` method
  
